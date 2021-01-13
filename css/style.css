@@ -1,6 +1,7 @@
 .header{
     height: 1000px;
     background-color: #fffbf0;
+    margin-bottom: 50px;
 }
 .navbar-logo{
     height: 50px;
@@ -26,7 +27,15 @@
     font-family: 'Bebas Neue', cursive;
     color: #FABE4C;
 }
-.color-navy-blue{
+.women-jacket-section{
+    width: 80%;
+    margin: 10%;
+}
+.women-jacket-header{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+.color-navy-blue , .women-jacket-header{
     color: #363958;
     display: block;
 }
@@ -36,4 +45,37 @@
 }
 .header-ad-image{
     width: 100%;
+}
+.card-img-style{
+    background-color: #F1F1F1;
+    width: 95%;
+    margin: 2.5%;
+    border-radius: 20px;
+}
+.penguin-card{
+    border: 0;
+    border-radius: 20px;
+}
+.penguin-card-footer{
+    border: 0;
+    background-color: white;
+}
+.jacket-title{
+    color: #363958;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.jacket-text{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.buy-now-btn{
+    background-image: linear-gradient(to bottom, #A4BC46, #85A019);
+    padding: 15px 35px 15px 35px;
+    border-radius: 10px;
+}
+.price{
+    color: #FABE4C;
+    font-size: 50px;
+    font-weight: 700;
 }
