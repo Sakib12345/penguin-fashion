@@ -1,7 +1,6 @@
 .header{
     height: 1000px;
     background-color: #fffbf0;
-    margin-bottom: 50px;
 }
 .navbar-logo{
     height: 50px;
@@ -27,15 +26,15 @@
     font-family: 'Bebas Neue', cursive;
     color: #FABE4C;
 }
-.women-jacket-section{
+.women-jacket-section, .men-jacket-section, .about-section{
     width: 80%;
     margin: 10%;
 }
-.women-jacket-header{
+.women-jacket-header, .men-jacket-header{
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 }
-.color-navy-blue , .women-jacket-header{
+.color-navy-blue , .women-jacket-header, .men-jacket-header{
     color: #363958;
     display: block;
 }
@@ -78,4 +77,27 @@
     color: #FABE4C;
     font-size: 50px;
     font-weight: 700;
+}
+.shopping-img{
+    width: 100%;
+}
+.service-card{
+    border-radius: 10px;
+    width: 80%;
+}
+.service-card img{
+    width: 100px;
+    float: left;
+}
+.service-details{
+    margin-left: 25%;
+}
+.service-details h3{
+    color: #363958;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.service-details p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
