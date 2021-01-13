@@ -26,15 +26,15 @@
     font-family: 'Bebas Neue', cursive;
     color: #FABE4C;
 }
-.women-jacket-section, .men-jacket-section, .about-section{
+.women-jacket-section, .men-jacket-section, .service-section, .featured-products{
     width: 80%;
     margin: 10%;
 }
-.women-jacket-header, .men-jacket-header{
+.women-jacket-header, .men-jacket-header, .featured-products-header{
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 }
-.color-navy-blue , .women-jacket-header, .men-jacket-header{
+.color-navy-blue , .women-jacket-header, .men-jacket-header, .featured-products-header{
     color: #363958;
     display: block;
 }
