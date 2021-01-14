@@ -8,7 +8,7 @@
 }
 .navbar-logo{
     height: 50px;
-    margin: 50px 0px 0px 10px ;
+    margin: 50px 0px 0px 0px ;
 }
 .navbar-balls{
     height: 50px;
@@ -237,6 +237,7 @@
     .header{
         height: auto;
     }
+     
 }
 
 
@@ -289,7 +290,15 @@
         justify-content: center;
         align-items: center;
     }
-    .featured-products-header{
-        font-size: 60px;
+    .contact-section{
+        text-align: center;
+    }
+    .women-jacket-header, .men-jacket-header, .featured-products-header, .reviews-header{
+        margin: 100px 0px 100px 0px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .submit{
+        margin-left: 35%;
     }
 }
