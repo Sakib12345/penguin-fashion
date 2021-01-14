@@ -2,12 +2,16 @@
     height: 1000px;
     background-color: #fffbf0;
 }
+.navbar-section, .header-ad-section{
+    width: 80%;
+    margin-left: 10%;
+}
 .navbar-logo{
     height: 50px;
-    margin: 50px 0px 0px 150px ;
+    margin: 50px 0px 0px 10px ;
 }
 .navbar-balls{
-    height: 80px;
+    height: 50px;
     margin-left: 40px;
 }
 .navbar-link{
@@ -26,15 +30,15 @@
     font-family: 'Bebas Neue', cursive;
     color: #FABE4C;
 }
-.women-jacket-section, .men-jacket-section, .service-section, .featured-products{
+.women-jacket-section, .men-jacket-section, .service-section, .featured-products, .reviews{
     width: 80%;
     margin: 10%;
 }
-.women-jacket-header, .men-jacket-header, .featured-products-header{
+.women-jacket-header, .men-jacket-header, .featured-products-header, .reviews-header{
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 }
-.color-navy-blue , .women-jacket-header, .men-jacket-header, .featured-products-header{
+.color-navy-blue , .women-jacket-header, .men-jacket-header, .featured-products-header, .reviews-header{
     color: #363958;
     display: block;
 }
@@ -54,6 +58,7 @@
 .penguin-card{
     border: 0;
     border-radius: 20px;
+    background-color: white;
 }
 .penguin-card-footer{
     border: 0;
@@ -68,7 +73,7 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.buy-now-btn{
+.buy-now-btn, .contact-section button{
     background-image: linear-gradient(to bottom, #A4BC46, #85A019);
     padding: 15px 35px 15px 35px;
     border-radius: 10px;
@@ -100,4 +105,168 @@
 .service-details p{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+}
+.penguin-card:hover{
+    transform: scale(1.05);
+    transition: transform 2s ease-in-out 0s;
+}
+.contact-section{
+    background-color: #fffbf0;
+}
+.contact-section button{
+    display: block;
+}
+.contact-section h1{
+    color: #363958;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+.penguin-mail{
+    color: #85A019;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+@media(max-width:1312px){
+    .navbar-logo{
+        height: 50px;
+        margin: 50px 0px 0px 0px ;
+    }
+    .navbar-link{
+        margin: 50px 0px 0px 20px ;
+    }
+    .jacket-title{
+        font-size: 30px;
+    }
+    .buy-now-btn{
+        padding: 10px 25px 10px 25px;
+    }
+    .price{
+        color: #FABE4C;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .service-card{
+        border-radius: 10px;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .service-card img{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .service-details{
+        margin: 0;
+    }
+    .service-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shopping-img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:992px){
+    .navbar-logo{
+        height: 50px;
+        margin: 50px 0px 0px 0px ;
+    }
+    .navbar-link{
+        margin: 50px 0px 0px 0px ;
+    }
+    .jacket-title{
+        font-size: 25px;
+    }
+    .jacket-text{
+        font-size: 15px;
+    }
+    .buy-now-btn{
+        padding: 5px 15px 5px 15px;
+    }
+    .price{
+        color: #FABE4C;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .service-card{
+        border-radius: 10px;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .service-card img{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .service-details{
+        margin: 0;
+    }
+    .service-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shopping-img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(max-width:688px){
+    .navbar-logo{
+        height: 30px;
+        display: inline;
+    }
+    .navbar-balls{
+        visibility: hidden;
+        position:absolute
+    }
+    .jacket-title{
+        font-size: 35px;
+    }
+    .jacket-text{
+        font-size: 20px;
+    }
+    .buy-now-btn{
+        padding: 15px 25px 15px 25px;
+    }
+    .price{
+        color: #FABE4C;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .header-ad-text h1{
+        font-size: 70px;
+        font-family: 'Bebas Neue', cursive;
+        color: #FABE4C;
+    }
+    .service-card{
+        border-radius: 10px;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .service-card img{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .service-details{
+        margin: 0;
+    }
+    .service-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
