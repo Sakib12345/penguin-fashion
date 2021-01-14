@@ -64,12 +64,12 @@
     border: 0;
     background-color: white;
 }
-.jacket-title{
+.jacket-title, .featured-product-title{
     color: #363958;
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
 }
-.jacket-text{
+.jacket-text, .featured-product-text{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -106,9 +106,9 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.penguin-card:hover{
+.penguin-card img:hover{
     transform: scale(1.05);
-    transition: transform 2s ease-in-out 0s;
+    transition: transform 1s ease-in-out 0s;
 }
 .contact-section{
     background-color: #fffbf0;
@@ -178,6 +178,10 @@
         height: 50px;
         margin: 50px 0px 0px 0px ;
     }
+    .navbar-balls{
+        visibility: hidden;
+        position:absolute
+    }
     .navbar-link{
         margin: 50px 0px 0px 0px ;
     }
@@ -227,8 +231,7 @@
 
 @media(max-width:688px){
     .navbar-logo{
-        height: 30px;
-        display: inline;
+        height: 35px;
     }
     .navbar-balls{
         visibility: hidden;
@@ -274,5 +277,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .featured-products-header{
+        font-size: 60px;
     }
 }
