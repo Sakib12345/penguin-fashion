@@ -219,6 +219,9 @@
         justify-content: center;
         align-items: center;
     }
+    .header{
+        height: auto;
+    }
 }
 
 
@@ -242,13 +245,16 @@
     }
     .price{
         color: #FABE4C;
-        font-size: 25px;
+        font-size: 40px;
         font-weight: 700;
     }
     .header-ad-text h1{
         font-size: 70px;
         font-family: 'Bebas Neue', cursive;
         color: #FABE4C;
+    }
+    .header{
+        height: auto;
     }
     .service-card{
         border-radius: 10px;
