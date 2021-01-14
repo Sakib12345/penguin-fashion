@@ -110,6 +110,17 @@
     transform: scale(1.05);
     transition: transform 1s ease-in-out 0s;
 }
+.filled{
+    color: gold;
+    font-size: .8em;
+}
+.unfilled{
+    color: lightgray;
+    font-size: .8em;
+}
+.reviews-text{
+    font-family: 'Cuprum', sans-serif;
+}
 .contact-section{
     background-color: #fffbf0;
 }
